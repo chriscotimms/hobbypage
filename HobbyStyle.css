@@ -13,7 +13,7 @@ body {
 header {
     font-family: 'Archivo', sans-serif;
     text-align: center;
-        font-size: 2em;
+        font-size: 3vw;
   padding: 10px;
 }
 
@@ -21,8 +21,40 @@ header {
 h2 {
     font-family: 'Archivo', sans-serif;
     text-align: left;
-    font-size: 1.4em;
-    padding: 10px;
+    font-size: 5vw;
+    padding: 40px 20px 10px;
+}
+
+
+h3 {
+    color: blue;
+    font-family: 'Archivo', sans-serif;
+    text-align: left;
+    font-size: 6vw;
+    padding: 20px 20px 10px;
+}
+
+img {
+    max-width: 100%;
+    display:block;
+}
+
+.tutorialsStyle {
+    background-color: brown;
+    width: 90%;
+    margin:5%;
+    margin-top: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.tut {
+    background-color:azure;
+    padding: 20px;
+    width: 95%;
+    margin-bottom:5%;
+    text-align: left;
+    display: inline-block;
 }
 
 ul.menu {
