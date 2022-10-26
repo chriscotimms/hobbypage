@@ -10,13 +10,34 @@
 <body>
 <header>
     <img src="https://patchstorage.com/wp-content/uploads/2022/06/logo-pd-vanilla.png" alt="Pure Data Logo" width="auto" height="50">
+    <ul>
+        <li>Pure Data tips and tutorials</li>
+        <li>Resources</li>
+        <li>About</li>
+    </ul>
 </header>
 <h1>Pure Data Tips</h1>
-        <ul>
-            <li>Pure Data tutorials</li>
-            <li>Pure Data tips</li>
-            <li>Resources</li>
-        </ul>
+       
+
+
+
+
+
+
+<footer>
+    <div id="dateDisplay"></div>
+
+<script>
+const date = new Date();
+const options ={
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day:_ 'numeric',
+};
+document.getElementById("dateDisplay").innerHTML = date.toLocaleString('en-GB', options);
+</script>
+</footer>
 
 </body>
 </html>
