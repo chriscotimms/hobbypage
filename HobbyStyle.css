@@ -5,14 +5,24 @@
 body {
     background-color:antiquewhite;
     font-family: 'Merriweather', serif;
-    font-weight: 200;
-    font-size: 1.3em;
+    font-weight: 400;
+    font-size: 1em;
     margin:0;
 }
 
 header {
+    font-family: 'Archivo', sans-serif;
     text-align: center;
+        font-size: 2em;
   padding: 10px;
+}
+
+
+h2 {
+    font-family: 'Archivo', sans-serif;
+    text-align: left;
+    font-size: 1.4em;
+    padding: 10px;
 }
 
 ul.menu {
