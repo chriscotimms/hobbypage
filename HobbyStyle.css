@@ -1,0 +1,60 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color:antiquewhite;
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+    font-size: 1.3em;
+    margin:0;
+}
+
+header {
+    text-align: center;
+  padding: 10px;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li.menu {
+    float: left;
+  }
+  
+  li.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li.menu a:hover {
+    background-color: #111111;
+  }
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding 15px;
+}
+
+.row:after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
