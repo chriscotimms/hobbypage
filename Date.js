@@ -1,10 +1,9 @@
 const date = new Date();
-const options ={
+const options = {
     weekday: 'long',
     year: 'numeric',
     month: 'long',
     day: 'numeric',
 };
-document.getElementById("dateDisplay").innerHTML = date.toLocaleString('en-GB', options);
 
-
+document.getElementById("JS").innerHTML = date.toLocaleString('en-GB', options);
